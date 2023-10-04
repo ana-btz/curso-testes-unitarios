@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.ts",
-    "test": "jest"
+    "test": "jest",
+    "test:unit": "jest --testMatch **/test/unit/*.test.ts",
+    "test:integration": "jest --testMatch **/test/integration/*.test.ts"
   },
   "keywords": [],
   "author": "",
