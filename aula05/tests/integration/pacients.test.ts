@@ -23,6 +23,7 @@ describe("Pacients API Test", () => {
       pacient: `${pacientData.firstName} ${pacientData.lastName}`,
       protocol: expect.any(String)
     });
+    console.log(body);
   });
 
   it("should not generate a protocol if data is missing", async () => {
